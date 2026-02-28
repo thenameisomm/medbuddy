@@ -1,0 +1,51 @@
+name: medicine_reminder
+description: A smart medicine reminder app with OCR prescription scanning.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Notifications
+  awesome_notifications: ^0.11.0
+
+  # Local Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Camera & OCR
+  image_picker: ^1.1.2
+  google_mlkit_text_recognition: ^0.13.0
+
+  # UI
+  flutter_slidable: ^3.1.1
+  fl_chart: ^0.68.0
+  intl: ^0.20.2
+  permission_handler: ^11.3.1
+  uuid: ^4.4.2
+  cupertino_icons: ^1.0.8
+  timezone: ^0.9.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.9
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/animations/
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Regular.ttf
+        - asset: assets/fonts/Nunito-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Nunito-ExtraBold.ttf
+          weight: 800
