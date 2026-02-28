@@ -31,23 +31,14 @@
 
 ---
 
-## 📱 App Screens
+## 📸 Screenshots
 
-```
-┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐
-│   TODAY TAB     │  │  MEDICINES TAB  │  │  HISTORY TAB    │
-│                 │  │                 │  │                 │
-│  Good Morning!  │  │  + Add Medicine │  │  Last 7 Days    │
-│  Feb 28, 2026   │  │                 │  │  Adherence: 85% │
-│                 │  │  💊 Paracetamol │  │                 │
-│  Next: Parac..  │  │  500mg          │  │  ████████░░     │
-│  In 15 min      │  │  8AM • 9PM      │  │                 │
-│                 │  │                 │  │  Day-by-day log │
-│  ──────────     │  │  💊 Amoxicillin │  │  ✅ Taken       │
-│  8:00 AM Taken  │  │  250mg          │  │  ❌ Missed      │
-│  2:00 PM [Take] │  │  8AM•2PM•8PM    │  │  ⏭ Skipped     │
-└─────────────────┘  └─────────────────┘  └─────────────────┘
-```
+<p align="center">
+  <img src="screenshots/today.jpg" width="200"/>
+  <img src="screenshots/medicines.jpg" width="200"/>
+  <img src="screenshots/scan.jpg" width="200"/>
+  <img src="screenshots/history.jpg" width="200"/>
+</p>
 
 ---
 
